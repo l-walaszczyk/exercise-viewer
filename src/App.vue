@@ -55,6 +55,22 @@ import { ref, computed, watch } from 'vue'
 
 const workouts = ref([
   {
+    name: 'Safe & Satisfying Day A',
+    exercises: [
+      'LUNGE/ALTERNATING_DUMBBELL_LUNGE',
+      'LUNGE/DUMBBELL_REVERSE_LUNGE',
+      'HIP_RAISE/BARBELL_HIP_THRUST_WITH_BENCH',
+      'BENCH_PRESS/DUMBBELL_BENCH_PRESS',
+      'SHOULDER_PRESS/DUMBBELL_SHOULDER_PRESS',
+      'PULL_UP/LAT_PULLDOWN',
+      'ROW/ONE_ARM_BENT_OVER_ROW',
+      'ROW/FACE_PULL',
+      'TRICEPS_EXTENSION/TRICEPS_PRESSDOWN',
+      'CURL/STANDING_DUMBBELL_BICEPS_CURL',
+      'PLANK/PLANK',
+    ],
+  },
+  {
     name: 'Full Body (Focus: Squat, Push, Vertical Pull)',
     exercises: [
       'MOVE/ARM_CIRCLES_LOW_FORWARD_WHEELCHAIR',
